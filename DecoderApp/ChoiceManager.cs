@@ -18,6 +18,12 @@ namespace DecoderApp
                 case 2:
                     cript = new VigenereDecript();
                     break;
+                case 3:
+                    cript = new Rot13Decrypt();
+                    break;
+                case 4:
+                    cript = new CaesarDecrypt();
+                    break;
             }
 
             RunCript();
